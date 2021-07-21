@@ -128,7 +128,7 @@ I have included notification options (with optional inclusion of the map for IOS
 You will **NEED** to update the following items to match the rooms you have used
 - Secret, Input Boolean and Input Text per room/zone
 - Group "Vacuum_Rooms"
-- Automation "Vacuum Add Rooms for Cleaning" Ttrigger entities
+- Automation "Vacuum Add Rooms for Cleaning" trigger entities
 - Automation "Vacuum Remove Rooms for Cleaning" trigger entities
 
 ### Step 7: Configure Map Options
@@ -187,7 +187,7 @@ If you have a different discovery prefix defined - such as "smartthings" - pleas
   visibility_timeout: 10 days
 ```
 
-### Step 12: Update Recorder
+### Step 11: Update Recorder
 
 To prevent the database from storing unrequired data, the below privides an example of suggested exclusions you can add to your [recorder](https://www.home-assistant.io/integrations/recorder/#common-filtering-examples) component within your configuration.yaml file
 
@@ -203,7 +203,7 @@ recorder:
       - camera.roomba
 ```
 
-### Step 11: Enjoy!
+### Step 12: Enjoy!
 
 ## Support
 
